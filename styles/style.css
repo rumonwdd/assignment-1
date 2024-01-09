@@ -1,6 +1,7 @@
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    color: black;
 }
 
 /* common style */
@@ -80,6 +81,15 @@ section {
 }
 
 /* Section 2 area styles */
+.section-2024 {
+    display: flex;
+}
+
+.image-2024 {
+    width: 319.83px;
+    height: 464.662px;
+    padding: 67px 0px 10px 0px;
+}
 
 .secton-area-title {
     background-image: url(../B9A1-New-Year-New-Mission/resources/Vectorrr.png);
@@ -89,6 +99,7 @@ section {
     margin: 50px auto;
     background-blend-mode: multiply;
     background: linear-gradient(rgb(32, 29, 29) black orange);
+    margin-bottom: 150px;
 }
 
 .header-text-title {
@@ -102,11 +113,11 @@ section {
 
 .massage-title {
     color: rgba(255, 255, 255, 0.80);
-    width: 690px;
+    width: 590px;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    padding: 0px 490px 0px 126px;
+    padding: 0px 50px 0px 126px;
 }
 
 .button-style {
@@ -334,7 +345,7 @@ section {
 }
 
 /* Subscribe section style */
-.sub-section{
+.sub-section {
     padding-left: 325px;
 }
 
@@ -372,7 +383,7 @@ section {
 
 .subscribe-button {
     width: 648px;
-    height: 72px;
+    height: 42px;
     display: flex;
     justify-content: space-between;
     border-radius: 50px;
@@ -386,9 +397,7 @@ section {
 
 .sub-area-2 {
     width: 210px;
-    height: 35px;
     border-radius: 0px 50px 50px 0px;
-
     background: #F00;
 }
 
@@ -405,6 +414,116 @@ section {
 .sub-area-1 {
     width: 648px;
     border-radius: 50px;
-    padding: 20px 56px;
     background: #FFF;
+}
+
+/* Footer area style */
+
+.footer-area {
+    width: 1600px;
+    background: #070211;
+    height: 609px;
+    margin-left: -120px;
+}
+
+.footer-section {
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.footer-content {
+    padding-top: 120px;
+    padding-left: 140px;
+}
+
+.icon-area {
+    padding-top: 140px;
+    padding-right: 285px;
+
+}
+
+
+.phone-icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.www-image {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    padding-bottom: 0px;
+}
+
+.footer-icon-1 {
+    width: 24px;
+    height: 24px;
+    padding-right: 5px;
+    margin: 0px;
+}
+
+.phone-number {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.footer-icon-2 {
+    width: 24px;
+    height: 24px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+.webside {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.footer-comment {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.social-media-image {
+    height: 64px;
+    width: 64px;
+    padding-left: 10px;
+}
+
+.last-footer {
+    align-items: center;
+    padding-top: 100px;
+}
+
+.footer-span-1 {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 140px;
+    margin-top: 200px;
+}
+
+.footer-span-2 {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 1300px;
+    padding-top: 150px;
 }
